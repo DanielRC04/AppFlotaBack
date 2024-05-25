@@ -1,4 +1,4 @@
-# Nombre del Proyecto
+# RENT APP BACK
 
 ## Estructura del Proyecto
 
@@ -28,15 +28,36 @@ Finalmente, inicia el servidor en modo desarrollo:
 npm run dev:start
 ```
 
-El servidor estará disponible en `http://localhost:3000/`.
+El servidor estará disponible en `http://localhost:3002/`.
 
 ## Configuración Adicional
 
 - Si se necesitan ajustes adicionales, como variables de entorno o configuraciones específicas, revisa el archivo `.env` para modificarlos según sea necesario.
 
-## Compartir y Probar la Colección de Postman
+## Probar la Colección de Postman
+### Brands
+https://api.postman.com/collections/31334158-9a4586c5-883a-470d-974f-981e8491f371?access_key=PMAT-01HYPZ0T2SZ7RFGMBK1A6AJ4QN
 
-Comparte el archivo exportado con la persona que va a probar y sigue estos pasos para importar la colección en Postman y configurar el entorno si es necesario:
+### CarCategories
+https://api.postman.com/collections/31334158-dc5cdee6-a532-42c0-91b0-4d3348b8c1eb?access_key=PMAT-01HYPYWKJFZFY9MQAFGWAH7DCH
+
+### CarImages
+https://api.postman.com/collections/31334158-99f96f60-914f-4f45-986a-c23b5a440cfe?access_key=PMAT-01HYPZ2XD0TA518KH7B9EWS900
+
+### Cars
+https://api.postman.com/collections/31334158-99f96f60-914f-4f45-986a-c23b5a440cfe?access_key=PMAT-01HYPZ2XD0TA518KH7B9EWS900
+
+### Cities
+https://api.postman.com/collections/31334158-7a425576-67d2-4df9-8df8-aeb164424727?access_key=PMAT-01HYPZ42NZ8DGCDGHEFCFK9JYE
+
+### Rents
+https://api.postman.com/collections/31334158-4b9fb5d9-884e-47bd-965d-41a5c04691c1?access_key=PMAT-01HYPZ4R43GN6YC58DTEJZRHST
+
+### States
+https://api.postman.com/collections/31334158-445e15d2-8573-464a-a8cf-779af70b922d?access_key=PMAT-01HYPZ56JRVGWJVA4C2T9H5K3Z
+
+### Users
+https://api.postman.com/collections/31334158-85b4fc50-b984-4b39-b9c2-3e5eab58de3a?access_key=PMAT-01HYPZ5V5HQYKP8SH595AED7VA
 
 ### Importar la colección en Postman:
 La persona a la que has enviado el archivo debe abrir Postman en su computadora.
