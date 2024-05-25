@@ -28,7 +28,7 @@ Finalmente, inicia el servidor en modo desarrollo:
 npm run dev:start
 ```
 
-El servidor estará disponible en `http://localhost:3000/`.
+El servidor estará disponible en `http://localhost:3002/`.
 
 ## Configuración Adicional
 
