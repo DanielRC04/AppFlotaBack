@@ -1,3 +1,8 @@
+-- Create Database
+CREATE DATABASE rentdb;
+
+USE rentdb;
+
 -- Create Brands table
 CREATE TABLE Brands (
     Id INT AUTO_INCREMENT NOT NULL PRIMARY KEY,
