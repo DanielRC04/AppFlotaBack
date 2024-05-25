@@ -1,4 +1,4 @@
-# Nombre del Proyecto
+# RENT APP BACK
 
 ## Estructura del Proyecto
 
@@ -62,5 +62,5 @@ https://api.postman.com/collections/31334158-85b4fc50-b984-4b39-b9c2-3e5eab58de3
 ### Importar la colección en Postman:
 La persona a la que has enviado el archivo debe abrir Postman en su computadora.
 En Postman, haz clic en el botón "Import" en la esquina superior derecha.
-Selecciona "Import File" y luego elige el archivo de colección que enviaste.
+Selecciona "Import" y luego elige la url de colección que enviaste.
 Postman importará la colección y estará disponible en su panel izquierdo para que puedan hacer pruebas.
