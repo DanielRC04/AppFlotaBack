@@ -1,7 +1,7 @@
 const carCategoriesQuerys = {};
 
 carCategoriesQuerys.getCarCategoriesQuery = () => {
-    return `SELECT * FROM CarCategories`;
+    return `SELECT DISTINCT * FROM CarCategories`;
 }
 
 carCategoriesQuerys.getCarCategoryQuery = (id) => {

@@ -1,7 +1,7 @@
 const brandsQuerys = {};
 
 brandsQuerys.getBrandsQuery = () => {
-    return `SELECT * FROM Brands`;
+    return `SELECT DISTINCT * FROM Brands`;
 }
 
 brandsQuerys.getBrandQuery = (id) => {

@@ -1,7 +1,7 @@
 statesQuerys = {};
 
 statesQuerys.getStatesQuery = () => {
-    return `SELECT * FROM States`;
+    return `SELECT DISTINCT * FROM States`;
 }
 
 statesQuerys.getStateQuery = (id) => {

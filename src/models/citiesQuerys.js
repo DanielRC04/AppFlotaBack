@@ -1,7 +1,7 @@
 const citiesQuerys = {};
 
 citiesQuerys.getCitiesQuery = () => {
-    return `SELECT * FROM Cities`;
+    return `SELECT DISTINCT * FROM Cities`;
 }
 
 citiesQuerys.getCityQuery = (id) => {

@@ -5,10 +5,7 @@ const fs = require('fs');
 dotenv.config();
 
 //ROUTES
-const routerStates = require("./routes");
-// const routerUsers = require("./routes/adminUsers");
-// const routerCars = require("./routes/adminCars");
-// const routerRents = require("./routes/adminRents");
+const routers = require("./routes");
 
 const cors = require('cors');
 
@@ -25,10 +22,10 @@ app.use(
   express.urlencoded({ limit: "50mb", extended: false, parameterLimit: 50000 })
 );
 
-routerStates(app);
-// routerUsers(app);
-// routerCars(app);
-// routerRents(app);
+app.use(express.static(__dirname + "/assets"));
+
+routers(app);
+
 
 const PORT = process.env.PORT || 4000;
 app.listen(PORT, () => { console.log(`🚀 Server listening on port ${PORT} y esta en modo: ${process.env.NODE_ENV}`)});
